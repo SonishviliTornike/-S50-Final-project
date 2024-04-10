@@ -19,7 +19,7 @@ URLipy is a command-line tool written in Python for assessing the safety of URLs
 4. Replace the API keys in the code with your own.
 
 ## Usage
-1. Run the `main.py` file: `python main.py`
+1. Run the `project.py` file: `python project.py`
 2. Enter the URL you want to check.
 3. Review the safety assessment and follow additional prompts to check associated IP addresses.
 
@@ -27,8 +27,6 @@ URLipy is a command-line tool written in Python for assessing the safety of URLs
 - Phishing URL Risk API: Used to assess the risk of phishing for the provided URL.
 - NetDetective API: Used to examine the potential threats associated with IP addresses.
 
-## License
-URLipy is licensed under the [MIT License](https://github.com/your_username/URLipy/blob/main/LICENSE).
 
 5. **Optional IP Address Check:**
    - URLipy offers an optional check for the associated IP address.
@@ -56,7 +54,7 @@ Ensure these dependencies are installed before running the script.
 
 ## API Keys
 
-Ensure possession of valid API keys for both the IPQualityScore and RapidAPI services. Update the key and X-RapidAPI-Key variables in the script with your respective API keys to facilitate seamless functionality.
+Ensure possession of valid API keys for both the Phishing Url Risk API and RapidAPI services. Update the key and X-RapidAPI-Key variables in the script with your respective API keys to facilitate seamless functionality.
 
 ## Disclaimer
 
